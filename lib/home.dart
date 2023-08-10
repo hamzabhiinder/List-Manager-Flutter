@@ -229,7 +229,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 },
                                 title: Text(
                                   snapshot.data![index].title.toString(),
-                                  style: TextStyle(fontSize: 20),
+                                  style: const TextStyle(fontSize: 20),
                                 ),
                                 contentPadding:
                                     const EdgeInsets.symmetric(horizontal: 10),
